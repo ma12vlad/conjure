@@ -96,7 +96,7 @@ msgstr "авторы-переводчики"
 
 #: conjure/app.py:71
 msgid "Powered by ImageMagick"
-msgstr "Работает на ImageMagick"
+msgstr "Основано на ImageMagick"
 
 #: conjure/ui/help-overlay.ui:11
 msgctxt "shortcut window"
