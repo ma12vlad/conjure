@@ -1,0 +1,1199 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the conjure package.
+#
+# SPDX-FileCopyrightText: 2024 Vladislav <ma12@rambler.ru>
+msgid ""
+msgstr ""
+"Project-Id-Version: conjure\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-13 01:57+0300\n"
+"PO-Revision-Date: 2024-06-19 00:23+0300\n"
+"Last-Translator: Vladislav <ma12@rambler.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: data/io.github.nate_xyz.Conjure.desktop.in:3
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:6
+msgid "Conjure"
+msgstr "Conjure"
+
+#: data/io.github.nate_xyz.Conjure.desktop.in:4
+msgid "Image Manipulation"
+msgstr "Манипулирование изображениями"
+
+#: data/io.github.nate_xyz.Conjure.desktop.in:5
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:7
+msgid "Magically transform images"
+msgstr "Волшебное преображение изображений"
+
+#. Translators: Search terms to find this application. Do not translate or localize the semicolons! The list must also end with a semicolon.
+#: data/io.github.nate_xyz.Conjure.desktop.in:12
+msgid "image;magic;transform;"
+msgstr ""
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:8
+msgid "nate-xyz"
+msgstr ""
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:10
+msgid ""
+"Apply various ImageMagick commands to your images, including resizing, "
+"cropping, rotating, flipping, and applying filters and effects."
+msgstr ""
+"Применяйте различные команды ImageMagick к изображениям, включая изменение "
+"размера,обрезку, поворот, переворот и применение фильтров и эффектов."
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:24
+msgid "Add Italian, Dutch, and Turkish Translations"
+msgstr "Добавлен перевод на итальянский, голландский, турецкий и русский языки"
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:25
+msgid "UI improvements"
+msgstr "Улучшен пользовательский интерфейс"
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:32
+msgid "UI changes"
+msgstr "Изменения в интерфейсе"
+
+#: conjure/window.py:52
+msgid "Select an Image File"
+msgstr "Выберите файл изображения"
+
+#: conjure/window.py:55 conjure/ui/window.ui:31
+#: conjure/views/ui/image_drop_page.ui:29
+msgid "Open Image"
+msgstr "Открыть изображение"
+
+#: conjure/window.py:58
+msgid "Image files"
+msgstr "Файлы изображений"
+
+#. Translators: Only replace "Error!"
+#: conjure/window.py:101
+msgid "<span foreground={ERROR_RED}>Error!</span> {html.escape(error)}"
+msgstr "<span foreground={ERROR_RED}>Ошибка!</span> {html.escape(error)}"
+
+#: conjure/window.py:107
+msgid "Opened image:"
+msgstr "Открытое изображение:"
+
+#. Translators: Do not replace {}
+#: conjure/window.py:112
+msgid "Could not open image: {}"
+msgstr "Не удалось открыть изображение: {}"
+
+#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
+#. One name per line, please do not remove previous names.
+#: conjure/app.py:68
+msgid "translator-credits"
+msgstr "авторы-переводчики"
+
+#: conjure/app.py:71
+msgid "Powered by ImageMagick"
+msgstr "Работает на ImageMagick"
+
+#: conjure/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общее"
+
+#: conjure/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показывать клавиатурные сочетания"
+
+#: conjure/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Выйти"
+
+#: conjure/ui/window.ui:24
+msgid "Conjure 🪄"
+msgstr ""
+
+#: conjure/ui/window.ui:69
+msgid "_Keyboard Shortcuts"
+msgstr "_Горячие клавиши"
+
+#: conjure/ui/window.ui:73
+msgid "_About Conjure"
+msgstr "_О программе Conjure"
+
+#: conjure/views/command_panel.py:126
+msgid "Unable select command, no image loaded."
+msgstr "Не удается выбрать команду, изображение не загружено."
+
+#: conjure/views/command_panel.py:203
+msgid "Unable to start conversion."
+msgstr "Невозможно начать преобразование."
+
+#: conjure/views/command_panel.py:206
+msgid "Unable to start conversion, no image loaded."
+msgstr "Не удается начать преобразование, изображение не загружено."
+
+#: conjure/views/command_panel.py:218
+msgid "Unable to complete conversion."
+msgstr "Не удалось завершить преобразование."
+
+#: conjure/views/image_drop_page.py:56
+msgid "Could not restore from history."
+msgstr "Не удалось восстановить из истории."
+
+#: conjure/views/image_drop_page.py:65
+msgid "No transformation to apply."
+msgstr "Преобразование не применяется."
+
+#: conjure/views/image_drop_page.py:80 conjure/views/image_drop_page.py:168
+msgid "Unable to load converted image."
+msgstr "Невозможно загрузить преобразованное изображение."
+
+#: conjure/views/image_drop_page.py:112 conjure/views/image_drop_page.py:127
+msgid "Unable to read drop."
+msgstr "Не удается прочитать drop."
+
+#: conjure/views/image_drop_page.py:117
+msgid ""
+"Unable to verify file on drop, try with the file chooser in the upper left "
+"corner."
+msgstr ""
+"Не удается проверить файл при удалении, попробуйте воспользоваться средством "
+"выбора файла в верхнем левом углу."
+
+#: conjure/views/save_dialog.py:37
+msgid "Save Image"
+msgstr "Сохранить изображение"
+
+#: conjure/views/save_dialog.py:40 conjure/views/ui/image_drop_page.ui:97
+msgid "Save"
+msgstr "Сохрание"
+
+#: conjure/views/save_dialog.py:66
+msgid "Saved!"
+msgstr "Сохранено!"
+
+#: conjure/views/save_dialog.py:66
+msgid "New image: {dialog.get_current_name()}"
+msgstr "Новое изображение: {dialog.get_current_name()}"
+
+#: conjure/views/save_dialog.py:68
+msgid "Unable to save image {dialog.get_current_name()}."
+msgstr "Не удалось сохранить изображение {dialog.get_current_name()}."
+
+#: conjure/views/save_dialog.py:71
+msgid "Unable to save image."
+msgstr "Не удается сохранить изображение."
+
+#: conjure/views/commands/ui/radius_sigma.ui:15
+#: conjure/views/commands/ui/radius_sigma_angle.ui:14
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:14
+#: conjure/views/commands/ui/radius.ui:10
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:20
+#: conjure/views/commands/ui/radius_sigma_xy.ui:19
+msgid "Radius"
+msgstr "Радиус"
+
+#: conjure/views/commands/ui/radius_sigma.ui:16
+#: conjure/views/commands/ui/radius_sigma_angle.ui:15
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:15
+#: conjure/views/commands/ui/radius.ui:11
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:21
+#: conjure/views/commands/ui/radius_sigma_xy.ui:20
+msgid "The size of the Gaussian operator."
+msgstr "Размер гауссовского оператора."
+
+#: conjure/views/commands/ui/radius_sigma.ui:35
+#: conjure/views/commands/ui/radius_sigma_angle.ui:34
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:34
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:40
+#: conjure/views/commands/ui/radius_sigma_xy.ui:39
+msgid "Sigma"
+msgstr "Сигма"
+
+#: conjure/views/commands/ui/radius_sigma.ui:36
+#: conjure/views/commands/ui/radius_sigma_angle.ui:35
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:35
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:41
+#: conjure/views/commands/ui/radius_sigma_xy.ui:40
+msgid "The standard deviation of the Gaussian."
+msgstr "Стандартное отклонение гауссианы."
+
+#: conjure/views/commands/ui/resize.ui:16
+msgid "Width (px)"
+msgstr "Ширина (пикс)"
+
+#: conjure/views/commands/ui/resize.ui:24
+msgid "Height (px)"
+msgstr "Высота (пикс)"
+
+#: conjure/views/commands/ui/crop.ui:15
+#: conjure/views/commands/ui/statistic.ui:45
+#: conjure/views/commands/ui/width_height_offset.ui:12
+msgid "Width"
+msgstr "Ширина"
+
+#: conjure/views/commands/ui/crop.ui:16
+msgid "Width of Crop"
+msgstr "Ширина обрезки"
+
+#: conjure/views/commands/ui/crop.ui:34
+#: conjure/views/commands/ui/statistic.ui:64
+#: conjure/views/commands/ui/width_height_offset.ui:32
+msgid "Height"
+msgstr "Высота"
+
+#: conjure/views/commands/ui/crop.ui:35
+msgid "Height of Crop"
+msgstr "Высота обрезки"
+
+#: conjure/views/commands/ui/crop.ui:58
+msgid "Left"
+msgstr "Слева"
+
+#: conjure/views/commands/ui/crop.ui:59
+msgid "Horizontal Start Position"
+msgstr "Горизонтальное исходное положение"
+
+#: conjure/views/commands/ui/crop.ui:77
+msgid "Top"
+msgstr "Сверху"
+
+#: conjure/views/commands/ui/crop.ui:78
+msgid "Vertical Start Position"
+msgstr "Вертикальное исходное положение"
+
+#: conjure/views/commands/ui/blur.ui:17 conjure/views/commands/ui/sharpen.ui:17
+msgid "Normal"
+msgstr "Нормальный"
+
+#: conjure/views/commands/ui/blur.ui:18 conjure/views/commands/ui/sharpen.ui:18
+msgid "Adaptive"
+msgstr "Адаптивный"
+
+#: conjure/views/commands/ui/blur.ui:19 conjure/views/commands/ui/noise.ui:27
+msgid "Gaussian"
+msgstr "Гауссовский"
+
+#: conjure/views/commands/ui/blur.ui:20
+msgid "Motion"
+msgstr "Движение"
+
+#: conjure/views/commands/ui/blur.ui:21
+msgid "Rotational"
+msgstr "Вращательный"
+
+#: conjure/views/commands/ui/blur.ui:22
+msgid "Selective"
+msgstr "Выборочный"
+
+#: conjure/views/commands/ui/radius_sigma_angle.ui:54
+#: conjure/views/commands/ui/angle.ui:10
+#: conjure/views/commands/ui/polaroid.ui:33
+msgid "Angle"
+msgstr "Угол"
+
+#. 35
+#. <item translatable="yes">Quantize Remap</item>
+#. Commented Out
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:54
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:89
+#: conjure/views/commands/ui/threshold.ui:10
+#: conjure/views/commands/ui/threshold_softness.ui:13
+#: conjure/views/ui/command_panel.ui:87
+msgid "Threshold"
+msgstr "Порог"
+
+#: conjure/views/commands/ui/sharpen.ui:19
+msgid "Unsharp Mask"
+msgstr "Нерезкая маска"
+
+#: conjure/views/commands/ui/shade.ui:16
+msgid "Gray"
+msgstr "Серый"
+
+#: conjure/views/commands/ui/shade.ui:17
+msgid "Isolate the effect on pixel intensity. Default is False."
+msgstr "Изолируйте влияние на интенсивность пикселей. По умолчанию False."
+
+#: conjure/views/commands/ui/shade.ui:32
+msgid "Azimuth"
+msgstr "Азимут"
+
+#: conjure/views/commands/ui/shade.ui:33
+msgid "Angle from x-axis."
+msgstr "Угол от оси X."
+
+#: conjure/views/commands/ui/shade.ui:52
+msgid "Elevation"
+msgstr "Высота"
+
+#: conjure/views/commands/ui/shade.ui:53
+msgid "Amount of pixels from the z-axis."
+msgstr "Количество пикселей по оси Z."
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:69
+#: conjure/views/commands/ui/amount_method.ui:49
+msgid "Amount"
+msgstr "Количество"
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:70
+msgid ""
+"The percentage of the difference between the original and the blur image "
+"that is added back into the original"
+msgstr ""
+"Процентная разница между исходным и размытым изображением, добавляемым "
+"обратно в исходное"
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:90
+msgid ""
+"The threshold in pixels needed to apply the difference amount. Values for "
+"threshold over 0.0 reduce the sharpens."
+msgstr ""
+"Пороговое значение в пикселях, необходимое для определения  разницы. "
+"Значенияпорога, превышающие 0,0, уменьшают резкость."
+
+#: conjure/views/commands/ui/factor.ui:10
+msgid "Factor"
+msgstr "Множитель"
+
+#: conjure/views/commands/ui/factor.ui:11
+msgid "Amount to adjust values."
+msgstr "Сумма для корректировки значений."
+
+#: conjure/views/commands/ui/color_alpha.ui:14
+msgid "Color"
+msgstr "Цвет"
+
+#: conjure/views/commands/ui/amount_method.ui:12
+#: conjure/views/commands/ui/polaroid.ui:53
+#: conjure/views/commands/ui/wave.ui:54
+msgid "Method"
+msgstr "Метод"
+
+#: conjure/views/commands/ui/amount_method.ui:13
+msgid "Which interpolate method to apply to effected pixels."
+msgstr "Какой метод интерполяции применять к обработанным пикселям."
+
+#: conjure/views/commands/ui/amount_method.ui:50
+msgid "Normalized degree of effect."
+msgstr "Нормализованная степень эффекта."
+
+#: conjure/views/commands/ui/polaroid.ui:13
+msgid "Caption"
+msgstr "Заголовок"
+
+#: conjure/views/commands/ui/polaroid.ui:20
+msgid "Font"
+msgstr "Шрифт"
+
+#: conjure/views/commands/ui/polaroid.ui:34
+msgid "Apply a shadow effect along this angle."
+msgstr "Примените эффект тени вдоль этого угла."
+
+#: conjure/views/commands/ui/polaroid.ui:54
+#: conjure/views/commands/ui/wave.ui:55
+msgid "Interpolation method."
+msgstr "Метод интерполяции."
+
+#: conjure/views/commands/ui/polaroid.ui:64
+#: conjure/views/commands/ui/noise.ui:25 conjure/views/commands/ui/wave.ui:64
+#: conjure/views/commands/ui/posterize.ui:24
+#: conjure/views/commands/ui/quantize.ui:27
+#: conjure/views/commands/ui/quantize.ui:53
+#: conjure/views/commands/ui/auto_threshold.ui:23
+msgid "Undefined"
+msgstr "Не определено"
+
+#: conjure/views/commands/ui/polaroid.ui:65
+#: conjure/views/commands/ui/wave.ui:65
+msgid "Average"
+msgstr "Среднее значение"
+
+#: conjure/views/commands/ui/polaroid.ui:66
+#: conjure/views/commands/ui/wave.ui:66
+msgid "Average9"
+msgstr "Среднее значение 9"
+
+#: conjure/views/commands/ui/polaroid.ui:67
+#: conjure/views/commands/ui/wave.ui:67
+msgid "Average16"
+msgstr "Среднее значение 16"
+
+#: conjure/views/commands/ui/polaroid.ui:68
+#: conjure/views/commands/ui/wave.ui:68
+msgid "Background"
+msgstr "Фон"
+
+#: conjure/views/commands/ui/polaroid.ui:69
+#: conjure/views/commands/ui/wave.ui:69
+msgid "Bilinear"
+msgstr "Билинейный"
+
+#: conjure/views/commands/ui/polaroid.ui:70
+#: conjure/views/commands/ui/wave.ui:70
+msgid "Blend"
+msgstr "Смесь"
+
+#: conjure/views/commands/ui/polaroid.ui:71
+#: conjure/views/commands/ui/wave.ui:71
+msgid "Catrom"
+msgstr "Катром"
+
+#: conjure/views/commands/ui/polaroid.ui:72
+#: conjure/views/commands/ui/wave.ui:72
+msgid "Integer"
+msgstr "Целое число"
+
+#: conjure/views/commands/ui/polaroid.ui:73
+#: conjure/views/commands/ui/wave.ui:73
+msgid "Mesh"
+msgstr "Сцепление"
+
+#: conjure/views/commands/ui/polaroid.ui:74
+#: conjure/views/commands/ui/wave.ui:74
+msgid "Nearest"
+msgstr "Ближайший"
+
+#: conjure/views/commands/ui/polaroid.ui:75
+#: conjure/views/commands/ui/wave.ui:75
+msgid "Spline"
+msgstr "Шлиц"
+
+#: conjure/views/commands/ui/noise.ui:14
+msgid "Noise"
+msgstr "Шум"
+
+#: conjure/views/commands/ui/noise.ui:15
+msgid "Type of noise to apply"
+msgstr "Тип применяемого шума"
+
+#: conjure/views/commands/ui/noise.ui:26
+msgid "Uniform"
+msgstr "Равномерно"
+
+#: conjure/views/commands/ui/noise.ui:28
+msgid "Multiplicative Gaussian"
+msgstr "Мультипликативный гауссовский"
+
+#: conjure/views/commands/ui/noise.ui:29
+msgid "Impulse"
+msgstr "Импульс"
+
+#: conjure/views/commands/ui/noise.ui:30
+msgid "Laplacian"
+msgstr "Лапласовский"
+
+#: conjure/views/commands/ui/noise.ui:31
+msgid "Poisson"
+msgstr "Рыба"
+
+#: conjure/views/commands/ui/noise.ui:32
+msgid "Random"
+msgstr "Случайный"
+
+#: conjure/views/commands/ui/noise.ui:45
+msgid "Attenuate"
+msgstr "Смягчать"
+
+#: conjure/views/commands/ui/noise.ui:46
+msgid "Rate of distribution."
+msgstr "Скорость распределения."
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:69
+msgid "X"
+msgstr "X"
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:70
+msgid ""
+"Number of pixels to offset inward from the top and bottom of the image "
+"before drawing effect."
+msgstr ""
+"Количество пикселей, которые необходимо сместить внутрь от верхней и нижней "
+"частей изображенияперед нанесением эффекта."
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:88
+msgid "Y"
+msgstr "Y"
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:89
+msgid ""
+"Number of pixels to offset inward from the left and right of the image "
+"before drawing effect."
+msgstr ""
+"Количество пикселей, которые необходимо сместить внутрь слева и справа от "
+"изображения, прежде чем появится эффект рисования."
+
+#: conjure/views/commands/ui/wave.ui:14
+msgid "Amplitude"
+msgstr "Амплитуда"
+
+#: conjure/views/commands/ui/wave.ui:15
+msgid "Height of wave form."
+msgstr "Высота формы волны."
+
+#: conjure/views/commands/ui/wave.ui:34
+msgid "Wave Length"
+msgstr "Длина волны"
+
+#: conjure/views/commands/ui/wave.ui:35
+msgid "Width of wave form."
+msgstr "Ширина формы волны."
+
+#: conjure/views/commands/ui/threshold_softness.ui:14
+msgid "Smoothing limit."
+msgstr "Предел сглаживания."
+
+#: conjure/views/commands/ui/threshold_softness.ui:32
+msgid "Softnesss"
+msgstr "Мягкость"
+
+#: conjure/views/commands/ui/threshold_softness.ui:33
+msgid "Attenuate of the smoothing threshold."
+msgstr "Ослабление порога сглаживания."
+
+#: conjure/views/commands/ui/rotate.ui:13
+msgid "Background Color (optional)"
+msgstr "Цвет фона (необязательно)"
+
+#: conjure/views/commands/ui/rotate.ui:21
+msgid "Degree"
+msgstr "Степень"
+
+#: conjure/views/commands/ui/rotate.ui:22
+msgid "Degree to rotate."
+msgstr "Степень вращения."
+
+#. 30
+#: conjure/views/commands/ui/statistic.ui:14
+#: conjure/views/ui/command_panel.ui:81
+msgid "Statistic"
+msgstr "Статистика"
+
+#: conjure/views/commands/ui/statistic.ui:15
+msgid "The type of statistic to calculate."
+msgstr "Тип статистики для расчета."
+
+#: conjure/views/commands/ui/statistic.ui:24
+msgid "Gradient"
+msgstr "Градиент"
+
+#: conjure/views/commands/ui/statistic.ui:25
+msgid "Maximum"
+msgstr "Максимум"
+
+#: conjure/views/commands/ui/statistic.ui:26
+msgid "Mean"
+msgstr "Среднее значение"
+
+#: conjure/views/commands/ui/statistic.ui:27
+msgid "Median"
+msgstr "Медиана"
+
+#: conjure/views/commands/ui/statistic.ui:28
+msgid "Minimum"
+msgstr "Минимум"
+
+#: conjure/views/commands/ui/statistic.ui:29
+msgid "Mode"
+msgstr "Режим"
+
+#: conjure/views/commands/ui/statistic.ui:30
+msgid "Nonpeak"
+msgstr "Непиковый"
+
+#: conjure/views/commands/ui/statistic.ui:31
+msgid "Root Mean Square"
+msgstr "Среднеквадратичный"
+
+#: conjure/views/commands/ui/statistic.ui:32
+msgid "Standard Deviation"
+msgstr "Стандартное отклонение"
+
+#: conjure/views/commands/ui/kmeans.ui:14
+#: conjure/views/commands/ui/quantize.ui:106
+msgid "Number of Colors"
+msgstr "Количество цветов"
+
+#: conjure/views/commands/ui/kmeans.ui:15
+msgid "Target number of colors to use as seeds."
+msgstr "Целевое количество цветов для использования в качестве основы."
+
+#: conjure/views/commands/ui/kmeans.ui:34
+msgid "Max Iterations"
+msgstr "Макс. итераций"
+
+#: conjure/views/commands/ui/kmeans.ui:35
+msgid "Maximum number of iterations needed until convergence."
+msgstr ""
+"Максимальное количество итераций, необходимых для достижения сходимости."
+
+#: conjure/views/commands/ui/kmeans.ui:54
+msgid "Tolerance"
+msgstr "Допуск"
+
+#: conjure/views/commands/ui/kmeans.ui:55
+msgid "Maximum tolerance between distortion iterations."
+msgstr "Максимальный допуск между итерациями искажения."
+
+#: conjure/views/commands/ui/posterize.ui:14
+#: conjure/views/commands/ui/quantize.ui:17
+msgid "Dither"
+msgstr "Дрожание"
+
+#: conjure/views/commands/ui/posterize.ui:15
+msgid "Dither method to apply."
+msgstr "Применить метод дрожания."
+
+#: conjure/views/commands/ui/posterize.ui:25
+#: conjure/views/commands/ui/quantize.ui:28
+msgid "No"
+msgstr "Нет"
+
+#: conjure/views/commands/ui/posterize.ui:26
+#: conjure/views/commands/ui/quantize.ui:29
+msgid "Riemersma"
+msgstr "Риемерсма"
+
+#: conjure/views/commands/ui/posterize.ui:27
+#: conjure/views/commands/ui/quantize.ui:30
+msgid "Floyd Steinberg"
+msgstr "Флойд Стейнберг"
+
+#: conjure/views/commands/ui/posterize.ui:40
+msgid "Levels"
+msgstr "Уровни"
+
+#: conjure/views/commands/ui/quantize.ui:18
+msgid "Perform dither operation between neighboring pixel values."
+msgstr "Выполните операцию сглаживания между значениями соседних пикселей."
+
+#: conjure/views/commands/ui/quantize.ui:44
+msgid "Color Space"
+msgstr "Цветовое пространство"
+
+#: conjure/views/commands/ui/quantize.ui:54
+msgid "RGB"
+msgstr "RGB"
+
+#: conjure/views/commands/ui/quantize.ui:55
+msgid "Grayscale"
+msgstr "Оттенки серого"
+
+#: conjure/views/commands/ui/quantize.ui:56
+msgid "Transparent"
+msgstr "Прозрачный"
+
+#: conjure/views/commands/ui/quantize.ui:57
+msgid "Ohta"
+msgstr "Охта"
+
+#: conjure/views/commands/ui/quantize.ui:58
+msgid "LAB"
+msgstr "LAB"
+
+#: conjure/views/commands/ui/quantize.ui:59
+msgid "XYZ"
+msgstr "XYZ"
+
+#: conjure/views/commands/ui/quantize.ui:60
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#: conjure/views/commands/ui/quantize.ui:61
+msgid "YCC"
+msgstr "YCC"
+
+#: conjure/views/commands/ui/quantize.ui:62
+msgid "YIQ"
+msgstr "YIQ"
+
+#: conjure/views/commands/ui/quantize.ui:63
+msgid "YPbPr"
+msgstr "YPbPr"
+
+#: conjure/views/commands/ui/quantize.ui:64
+msgid "YUV"
+msgstr "YUV"
+
+#: conjure/views/commands/ui/quantize.ui:65
+msgid "CMYK"
+msgstr "CMYK"
+
+#: conjure/views/commands/ui/quantize.ui:66
+msgid "sRGB"
+msgstr "sRGB"
+
+#: conjure/views/commands/ui/quantize.ui:67
+msgid "HSB"
+msgstr "HSB"
+
+#: conjure/views/commands/ui/quantize.ui:68
+msgid "HSL"
+msgstr "HSL"
+
+#: conjure/views/commands/ui/quantize.ui:69
+msgid "HWB"
+msgstr "HWB"
+
+#: conjure/views/commands/ui/quantize.ui:70
+msgid "Rec.601 YCbCr"
+msgstr "Rec.601 YCbCr"
+
+#: conjure/views/commands/ui/quantize.ui:71
+msgid "Rec.709 YCbCr"
+msgstr "Rec.709 YCbCr"
+
+#: conjure/views/commands/ui/quantize.ui:72
+msgid "Log"
+msgstr "Лог"
+
+#: conjure/views/commands/ui/quantize.ui:73
+msgid "CMY"
+msgstr "CMY"
+
+#: conjure/views/commands/ui/quantize.ui:74
+msgid "Luv"
+msgstr "Luv"
+
+#: conjure/views/commands/ui/quantize.ui:75
+msgid "HCL"
+msgstr "HCL"
+
+#: conjure/views/commands/ui/quantize.ui:76
+msgid "LCH"
+msgstr "LCH"
+
+#: conjure/views/commands/ui/quantize.ui:77
+msgid "LMS"
+msgstr "LMS"
+
+#: conjure/views/commands/ui/quantize.ui:78
+msgid "LCHab"
+msgstr "LCHab"
+
+#: conjure/views/commands/ui/quantize.ui:79
+msgid "LCHuv"
+msgstr "LCHuv"
+
+#: conjure/views/commands/ui/quantize.ui:80
+msgid "scRGB"
+msgstr "scRGB"
+
+#: conjure/views/commands/ui/quantize.ui:81
+msgid "HSI"
+msgstr "HSI"
+
+#: conjure/views/commands/ui/quantize.ui:82
+msgid "HSV"
+msgstr "HSV"
+
+#: conjure/views/commands/ui/quantize.ui:83
+msgid "HCLp"
+msgstr "HCLp"
+
+#: conjure/views/commands/ui/quantize.ui:84
+msgid "xyY"
+msgstr "xyY"
+
+#: conjure/views/commands/ui/quantize.ui:85
+msgid "YDbDr"
+msgstr "YDbDr"
+
+#: conjure/views/commands/ui/quantize.ui:107
+msgid "The target number of colors to reduce the image to."
+msgstr "Целевое количество цветов, до которых нужно уменьшить изображение."
+
+#: conjure/views/commands/ui/quantize.ui:127
+msgid "Tree Depth"
+msgstr "Глубина дерева"
+
+#: conjure/views/commands/ui/quantize.ui:128
+msgid ""
+"A value between 0 and 8 where 0 will allow ImageMagick to calculate the "
+"optimal depth with Log4(number_colors)"
+msgstr ""
+"Значение от 0 до 8, где 0 позволит ImageMagick вычислить оптимальная глубина "
+"с помощью Log4(number_colors)"
+
+#: conjure/views/commands/ui/width_height_offset.ui:13
+msgid "Size of neighboring pixels on the X-axis."
+msgstr "Размер соседних пикселей по оси X."
+
+#: conjure/views/commands/ui/width_height_offset.ui:33
+msgid "Size of neighboring pixels on the Y-axis."
+msgstr "Размер соседних пикселей по оси Y."
+
+#: conjure/views/commands/ui/width_height_offset.ui:52
+msgid "Offset"
+msgstr "Смещение"
+
+#: conjure/views/commands/ui/width_height_offset.ui:53
+msgid "Forces the pixels to black if values are below offset."
+msgstr "Делает пиксели черными, если значения меньше смещения."
+
+#: conjure/views/commands/ui/auto_threshold.ui:14
+msgid "Threshold Method"
+msgstr "Пороговый метод"
+
+#: conjure/views/commands/ui/auto_threshold.ui:24
+msgid "Kapur"
+msgstr "Капур"
+
+#: conjure/views/commands/ui/auto_threshold.ui:25
+msgid "Otsu"
+msgstr "Травянистый"
+
+#: conjure/views/commands/ui/auto_threshold.ui:26
+msgid "Triangle"
+msgstr "Треугольник"
+
+#: conjure/views/commands/ui/thresholds.ui:16
+msgid "Adaptive Threshold"
+msgstr "Адаптивный порог"
+
+#: conjure/views/commands/ui/thresholds.ui:17
+msgid "Auto Threshold"
+msgstr "Автоматический порог"
+
+#: conjure/views/commands/ui/thresholds.ui:18
+msgid "Black Threshold"
+msgstr "Порог чёрного"
+
+#: conjure/views/commands/ui/thresholds.ui:19
+#: conjure/views/commands/ui/color_threshold.ui:13
+msgid "Color Threshold"
+msgstr "Порог цвета"
+
+#. <item translatable="yes">Ordered Threshold</item>
+#: conjure/views/commands/ui/thresholds.ui:21
+msgid "Random Threshold"
+msgstr "Случайный порог"
+
+#: conjure/views/commands/ui/thresholds.ui:22
+msgid "Range Threshold"
+msgstr "Порог диапазона"
+
+#: conjure/views/commands/ui/thresholds.ui:23
+msgid "White Threshold"
+msgstr "Порог белого"
+
+#: conjure/views/commands/ui/color_threshold_start_stop.ui:13
+msgid "Start Color"
+msgstr "Начальный цвет"
+
+#: conjure/views/commands/ui/color_threshold_start_stop.ui:19
+msgid "Stop Color"
+msgstr "Конечный цвет"
+
+#: conjure/views/commands/ui/ordered_dither.ui:13
+msgid "Threshold 1x1 (non-dither)"
+msgstr "Порог 1x1 (без размытия)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:14
+msgid "Checkerboard 2x1 (dither)"
+msgstr "Шахматная доска 2х1 (размытая)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:15
+msgid "Ordered 2x2 (dispersed)"
+msgstr "Упорядоченный 2x2 (рассеянный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:16
+msgid "Ordered 3x3 (dispersed)"
+msgstr "Упорядоченный 3х3 (рассеянный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:17
+msgid "Ordered 4x4 (dispersed)"
+msgstr "Упорядоченный 4х4 (рассеянный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:18
+msgid "Ordered 8x8 (dispersed)"
+msgstr "Упорядоченный 8х8 (рассеянный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:19
+msgid "Halftone 4x4 (angled)"
+msgstr "Полутоновый 4x4 (угловой)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:20
+msgid "Halftone 6x6 (angled)"
+msgstr "Полутоновый 6x6 (угловой)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:21
+msgid "Halftone 8x8 (angled)"
+msgstr "Полутоновый 8x8 (угловой)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:22
+msgid "Halftone 4x4 (orthogonal)"
+msgstr "Полутоновый 4x4 (ортогональный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:23
+msgid "Halftone 6x6 (orthogonal)"
+msgstr "Полутоновый 6x6 (ортогональный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:24
+msgid "Halftone 8x8 (orthogonal)"
+msgstr "Полутоновый 8x8 (ортогональный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:25
+msgid "Halftone 16x16 (orthogonal)"
+msgstr "Полутоновый 16x16 (ортогональный)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:26
+msgid "Circles 5x5 (black)"
+msgstr "Круги 5х5 (черные)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:27
+msgid "Circles 5x5 (white)"
+msgstr "Круги 5х5 (белые)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:28
+msgid "Circles 6x6 (black)"
+msgstr "Круги 6х6 (черные)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:29
+msgid "Circles 6x6 (white)"
+msgstr "Круги 6х6 (белые)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:30
+msgid "Circles 7x7 (black)"
+msgstr "Круги 7х7 (черные)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:31
+msgid "Circles 7x7 (white)"
+msgstr "Круги 7х7 (белые)"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:13
+msgid "Low Black"
+msgstr "Низкий черный"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:32
+msgid "Low White"
+msgstr "Низкий белый"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:52
+msgid "High White"
+msgstr "Высокий Белый"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:72
+msgid "High Black"
+msgstr "Высокий черный"
+
+#: conjure/views/commands/ui/low_high.ui:12
+msgid "Low"
+msgstr "Низкий"
+
+#: conjure/views/commands/ui/low_high.ui:31
+msgid "High"
+msgstr "Высокий"
+
+#: conjure/views/commands/ui/fx.ui:14
+msgid "FX Expression"
+msgstr "FX-выражение"
+
+#: conjure/views/ui/image_drop_page.ui:14
+msgid "Drop Image"
+msgstr "Перетащите изображение"
+
+#: conjure/views/ui/image_drop_page.ui:15
+msgid "Drag an image here or click the button below."
+msgstr "Перетащите изображение сюда или нажмите кнопку ниже."
+
+#: conjure/views/ui/image_drop_page.ui:84
+msgid "Apply"
+msgstr "Применить"
+
+#: conjure/views/ui/command_panel.ui:47
+msgid "Select Command"
+msgstr "Выберите команду"
+
+#. 0
+#: conjure/views/ui/command_panel.ui:48
+msgid "Resize"
+msgstr "Изменить размер"
+
+#. 1
+#: conjure/views/ui/command_panel.ui:49
+msgid "Crop"
+msgstr "Обрезать"
+
+#. 2
+#. <item translatable="yes">Transform</item>
+#. Commented Out
+#: conjure/views/ui/command_panel.ui:51
+msgid "Seam Carving"
+msgstr "Вырезать по шву"
+
+#. 3
+#: conjure/views/ui/command_panel.ui:52
+msgid "Blur"
+msgstr "Размытие"
+
+#. 4
+#: conjure/views/ui/command_panel.ui:53
+msgid "Despeckle"
+msgstr "Пятнистость"
+
+#. 5
+#: conjure/views/ui/command_panel.ui:54
+msgid "Edge"
+msgstr "Края"
+
+#. 6
+#: conjure/views/ui/command_panel.ui:55
+msgid "Emboss"
+msgstr "Тиснение"
+
+#. 7
+#: conjure/views/ui/command_panel.ui:56
+msgid "Kuwahara"
+msgstr "Кувахара"
+
+#. 8
+#: conjure/views/ui/command_panel.ui:57
+msgid "Shade"
+msgstr "Тень"
+
+#. 9
+#: conjure/views/ui/command_panel.ui:58
+msgid "Sharpen"
+msgstr "Резкость"
+
+#. 10
+#: conjure/views/ui/command_panel.ui:59
+msgid "Spread"
+msgstr "Распространение"
+
+#. 11
+#: conjure/views/ui/command_panel.ui:60
+msgid "Add Noise"
+msgstr "Добавить шум"
+
+#. 12
+#: conjure/views/ui/command_panel.ui:61
+msgid "Blueshift"
+msgstr "Синее смещение"
+
+#. 13
+#: conjure/views/ui/command_panel.ui:62
+msgid "Charcoal"
+msgstr "Древесный уголь"
+
+#. 14
+#. <item translatable="yes">Color Matrix</item>
+#. Commented Out
+#: conjure/views/ui/command_panel.ui:64
+msgid "Colorize"
+msgstr "Раскрасить"
+
+#. 15
+#: conjure/views/ui/command_panel.ui:65
+msgid "FX"
+msgstr "FX"
+
+#. 16
+#: conjure/views/ui/command_panel.ui:66
+msgid "Implode"
+msgstr "Взрывать"
+
+#. 17
+#: conjure/views/ui/command_panel.ui:67
+msgid "Polaroid"
+msgstr "Полароид"
+
+#. 18
+#: conjure/views/ui/command_panel.ui:68
+msgid "Sepia Tone"
+msgstr "Сепия"
+
+#. 19
+#: conjure/views/ui/command_panel.ui:69
+msgid "Sketch"
+msgstr "Набросок"
+
+#. 20
+#: conjure/views/ui/command_panel.ui:70
+msgid "Solarize"
+msgstr "Соляризация"
+
+#. 21
+#. <item translatable="yes">Stereogram</item>
+#. Commented Out
+#: conjure/views/ui/command_panel.ui:72
+msgid "Swirl"
+msgstr "Вихрь"
+
+#. 22
+#: conjure/views/ui/command_panel.ui:73
+msgid "Tint"
+msgstr "Тонировка"
+
+#. 23
+#: conjure/views/ui/command_panel.ui:74
+msgid "Vignette"
+msgstr "Виньетка"
+
+#. 24
+#: conjure/views/ui/command_panel.ui:75
+msgid "Wave"
+msgstr "Волна"
+
+#. 25
+#: conjure/views/ui/command_panel.ui:76
+msgid "Wavelet Denoise"
+msgstr "Вейвлет-шумоподавление"
+
+#. 26
+#: conjure/views/ui/command_panel.ui:77
+msgid "Enhance"
+msgstr "Усиление"
+
+#. 27
+#: conjure/views/ui/command_panel.ui:78
+msgid "Flip"
+msgstr "Переворот"
+
+#. 28
+#: conjure/views/ui/command_panel.ui:79
+msgid "Flop"
+msgstr "Провал"
+
+#. 29
+#: conjure/views/ui/command_panel.ui:80
+msgid "Rotation"
+msgstr "Вращение"
+
+#. 31
+#: conjure/views/ui/command_panel.ui:82
+msgid "KMeans"
+msgstr "KMeans"
+
+#. 32
+#: conjure/views/ui/command_panel.ui:83
+msgid "Posterize"
+msgstr "Постеризация"
+
+#. 33
+#: conjure/views/ui/command_panel.ui:84
+msgid "Quantize"
+msgstr "Квантовать"
+
+#. 34
+#: conjure/views/ui/command_panel.ui:85
+msgid "Ordered Dither"
+msgstr "Упорядоченное колебание"
+
+#: conjure/views/ui/save_dialog.ui:6
+msgid "Save Image?"
+msgstr "Сохранить изображение?"
+
+#: conjure/views/ui/save_dialog.ui:17
+msgid "_Cancel"
+msgstr "_Отмена"
+
+#: conjure/views/ui/save_dialog.ui:18
+msgid "_Save"
+msgstr "_ Сохранить"
